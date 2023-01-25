@@ -1,0 +1,72 @@
+body {
+  margin: 0;
+  padding: 20px;
+  font-family: -apple-system, BlinkMacSystemFont, "Roboto", "Segoe UI", Helvetica, Arial, sans-serif;
+}
+
+h2 {
+  font-size: 20px;
+  margin: 0 0 12px;
+}
+
+section {
+  margin-bottom: 28px;
+}
+
+/* Responsive */
+.responsive {
+  width: auto;
+}
+
+/* Small */
+.small {
+  width: 120px;
+  height: 120px;
+}
+
+.small::part(hue) {
+  height: 20px;
+}
+
+/* Custom poiners */
+.custom-pointers::part(saturation-pointer) {
+  width: 16px;
+  height: 16px;
+  border-radius: 3px;
+}
+
+.custom-pointers::part(hue-pointer),
+.custom-pointers::part(alpha-pointer) {
+  width: 16px;
+  border-radius: 3px;
+}
+
+/* Custom layout */
+.custom-layout {
+  padding: 16px;
+  border-radius: 12px;
+  background: #33333a;
+  box-shadow: 0 6px 12px #999;
+}
+
+.custom-layout::part(saturation) {
+  margin: 15px 0;
+  border-radius: 5px;
+  border-bottom: none;
+}
+
+.custom-layout::part(hue) {
+  order: -1;
+}
+
+.custom-layout::part(hue),
+.custom-layout::part(alpha) {
+  height: 14px;
+  border-radius: 5px;
+}
+
+.custom-layout::part(hue-pointer),
+.custom-layout::part(alpha-pointer) {
+  width: 20px;
+  height: 20px;
+}

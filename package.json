@@ -1,0 +1,7 @@
+{
+  "name": "@wcd/tora.1986.tatsu@gmail.com.vanilla-colorful-styling-fork-ldbb0vyb",
+  "version": "0.0.0",
+  "scripts": {
+    "serve": "npx wcd-cli@latest serve uukIsaGDEuiyUfdViAVP --open"
+  }
+}
